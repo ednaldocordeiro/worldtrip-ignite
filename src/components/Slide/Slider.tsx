@@ -7,11 +7,12 @@ import {
   useBreakpointValue,
 } from '@chakra-ui/react';
 import { StaticImageData } from 'next/image';
+import { useRouter } from 'next/router';
 
 interface SwiperSlideProps extends BoxProps {
   title: string;
   description: string;
-  image: StaticImageData;
+  image: string;
 }
 
 export function Slider({
@@ -20,11 +21,12 @@ export function Slider({
   image,
   ...rest
 }: SwiperSlideProps) {
+  const {push} = useRouter();
   return (
     <Box
       w='auto'
       h='100%'
-      bgImage={`url('${image.src}')`}
+      bgImage={image}
       bgSize='cover'
       bgPosition='center'
       {...rest}
@@ -43,6 +45,8 @@ export function Slider({
           fontWeight='extrabold'
           fontSize={['2xl', '3xl', '4xl', '5xl']}
           mb='4'
+          onClick={() => push(`/continent/${title}`)}
+          _hover={{color: 'yellow.400', cursor: 'pointer'}}
         >
           {title}
         </Heading>

@@ -4,8 +4,24 @@ import banner from '/public/banner.svg';
 import { TravelTypes } from '@/components/TravelTypes';
 import { Banner } from '@/components/Banner';
 import { Slide } from '@/components/Slide';
+import { useEffect, useState } from 'react';
+
+interface Slide {
+  id: number;
+  title: string;
+  description: string;
+  picture_url: string;
+}
 
 export default function Home() {
+  const [slides, setSlides] = useState<Slide[]>([]);
+
+  useEffect(() => {
+    fetch('http://localhost:3333/slides')
+      .then((res) => res.json())
+      .then((data) => setSlides(data))
+  }, [])
+
   return (
     <>
       <Box
@@ -30,7 +46,7 @@ export default function Home() {
           <Heading textAlign='center' mb='14'>
             Vamos nessa? <br /> Então escolha seu continente
           </Heading>
-          <Slide />
+          <Slide slides={slides}/>
         </Box>
       </Box>
     </>

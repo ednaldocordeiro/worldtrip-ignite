@@ -1,0 +1,300 @@
+{
+  "slides": [
+    {
+      "id": 1,
+      "title": "Europa",
+      "description": "O continente mais antigo.",
+      "picture_url": "https://images.unsplash.com/photo-1473951574080-01fe45ec8643?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1504&q=80"
+    },
+    {
+      "id": 2,
+      "title": "Ásia",
+      "description": "O mundo oriental antigo.",
+      "picture_url": "https://images.unsplash.com/photo-1535139262971-c51845709a48?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+    },
+    {
+      "id": 3,
+      "title": "América do Norte",
+      "description": "Moderna, vasta e diversa.",
+      "picture_url": "https://images.unsplash.com/photo-1523374228107-6e44bd2b524e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+    },
+    {
+      "id": 4,
+      "title": "América do Sul",
+      "description": "Colorida, vibrante e rica.",
+      "picture_url": "https://images.unsplash.com/photo-1637966201771-b0b251baa2ef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+    },
+    {
+      "id": 5,
+      "title": "Oceania",
+      "description": "Ilhas do Pacífico distante.",
+      "picture_url": "https://images.unsplash.com/photo-1588001400947-6385aef4ab0e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80"
+    },
+    {
+      "id": 6,
+      "title": "África",
+      "description": "O berço da humanidade.",
+      "picture_url": "https://images.unsplash.com/photo-1523805009345-7448845a9e53?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80"
+    }
+  ],
+  "continents": [
+    {
+      "id": 1,
+      "title": "Ásia",
+      "description": "A Ásia é o maior e mais populoso continente do mundo, cobrindo cerca de 30% da área terrestre global. Ela é conhecida por sua diversidade cultural, paisagens naturais espetaculares, arquitetura impressionante e tecnologia avançada. A Ásia é também lar de algumas das cidades mais populosas do mundo.",
+      "banner": "https://images.unsplash.com/photo-1556967789-e6512208cf68?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80",
+      "info": {
+        "total_countries": "49",
+        "languages": 2300,
+        "most_visited_cities": {
+          "total": 4,
+          "cities": [
+            {
+              "id": 1,
+              "city": "Bangkok",
+              "country": "Tailândia",
+              "flag": "https://th.bing.com/th/id/R.dcf8f6874e3558dadd8b2def202e1a8f?rik=TUS0u%2f%2fWeGYC4A&riu=http%3a%2f%2fmedia-cache-ak0.pinimg.com%2foriginals%2f93%2f89%2f28%2f938928e41dd1ff657c396cd2cb45d652.jpg&ehk=OMM8yjqM9hfgwMNoDXk8KiKL2aWU5WV7lUA0fOuFoa4%3d&risl=&pid=ImgRaw&r=0",
+              "picture_url": "https://bigseventravel.com/wp-content/uploads/2019/12/theang-rathana-XrE1mx2EY_w-unsplash-1024x768.jpg"
+            },
+            {
+              "id": 2,
+              "city": "Hong Kong",
+              "country": "China",
+              "flag": "https://th.bing.com/th/id/R.47112aba8250f6a2fd51a84b7a1a50d1?rik=AXGyvywT3IPMAw&riu=http%3a%2f%2fflaglane.com%2fdownload%2fchinese-flag%2fchinese-flag-large.jpg&ehk=3GXDlE55yuKhzs3vwJhUDV9qIEbeR%2fNn%2fF0ZptESlu8%3d&risl=&pid=ImgRaw&r=0",
+              "picture_url": "https://bigseventravel.com/wp-content/uploads/2019/03/julia-tet-1008933-unsplash-1024x701.jpg"
+            },
+            {
+              "id": 3,
+              "city": "Tóquio",
+              "country": "Japão",
+              "flag": "https://th.bing.com/th/id/R.15160363e60325f6b423a6b1ffdbd9b0?rik=%2bpAiVfHduh%2bmaA&pid=ImgRaw&r=0",
+              "picture_url": "https://bigseventravel.com/wp-content/uploads/2019/03/pat-krupa-1189438-unsplash-1024x682.jpg"
+            },
+            {
+              "id": 4,
+              "city": "Singapura",
+              "country": "Singapura",
+              "flag": "https://th.bing.com/th/id/R.625c4783efb416c1095f20dc1274e321?rik=ktfnJ7k98zUNGQ&riu=http%3a%2f%2fwww.armyupress.army.mil%2fportals%2f7%2fmilitary-review%2fimg%2fENGLISHma2017%2fFlag-of-Singapore.png&ehk=Pu0p8DQDFvut9aWVoyBgv8Ki0B6zQs0EKgHMkr9%2faGE%3d&risl=&pid=ImgRaw&r=0",
+              "picture_url": "https://bigseventravel.com/wp-content/uploads/2019/03/louie-martinez-775889-unsplash-1024x682.jpg"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 2,
+      "title": "Europa",
+      "description": "A Europa é um dos continentes mais antigos e culturalmente ricos do mundo, conhecido por sua história fascinante, arte e arquitetura requintadas, além de culinária saborosa e moda elegante. É o segundo menor continente em área, mas possui grande diversidade geográfica e é lar de algumas das cidades mais belas do mundo.",
+      "banner": "https://images.unsplash.com/photo-1486299267070-83823f5448dd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80",
+      "info": {
+        "total_countries": "49",
+        "languages": 150,
+        "most_visited_cities": {
+          "total": 4,
+          "cities": [
+            {
+              "id": 1,
+              "city": "Paris",
+              "country": "França",
+              "flag": "https://th.bing.com/th/id/R.98ed847d113e4f1899819db4904e9a3b?rik=LTK6Hfy0oKrtaA&riu=http%3a%2f%2fnews.uic.edu%2ffiles%2f2015%2f11%2fFlag_of_France.png&ehk=86D0Y7s0OHofoYVi4%2fc1ASsPHLtuqv9%2fEyG3oZnE5kE%3d&risl=&pid=ImgRaw&r=0",
+              "picture_url": "https://bigseventravel.com/wp-content/uploads/2019/03/chris-coudron-133542-unsplash-1024x683.jpg"
+            },
+            {
+              "id": 2,
+              "city": "Londres",
+              "country": "Reino Unido",
+              "flag": "https://th.bing.com/th/id/R.d7e70c028add043f3aefbc3cd2fdd7ae?rik=DOipvWymKzb4Ow&pid=ImgRaw&r=0",
+              "picture_url": "https://bigseventravel.com/wp-content/uploads/2019/03/montse-monmo-82806-unsplash-1024x595.jpg"
+            },
+            {
+              "id": 3,
+              "city": "Istambul",
+              "country": "Turquia",
+              "flag": "https://th.bing.com/th/id/R.1c9060e3d271cc82dc2b009df1a6ab47?rik=GlSWVgIRzRxN%2bA&riu=http%3a%2f%2f4.bp.blogspot.com%2f-2aN3nsMhB80%2fTwYwwXpDQZI%2fAAAAAAAA7Po%2fOC3HXKQbjSk%2fs1600%2fTurkey_Flag.gif&ehk=K7k3krotDHEULjJHIxmrTU%2b61F2%2bmdtUDeh3kVsobWo%3d&risl=&pid=ImgRaw&r=0",
+              "picture_url": "https://bigseventravel.com/wp-content/uploads/2019/03/Screen-Shot-2019-03-08-at-19.01.42.png"
+            },
+            {
+              "id": 4,
+              "city": "Roma",
+              "country": "Itália",
+              "flag": "https://th.bing.com/th/id/R.79692ed8abc4bf7e0d75eeadc182ffb8?rik=x%2bEV0oJE7zEq3g&pid=ImgRaw&r=0",
+              "picture_url": "https://bigseventravel.com/wp-content/uploads/2019/03/sarah-doffman-639546-unsplash-1024x576.jpg"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 3,
+      "title": "América do Sul",
+      "description": "A América do Sul é um continente diverso, repleto de belezas naturais e culturais. A região abriga uma das maiores biodiversidades do mundo, além de possuir uma rica herança cultural e histórica. A música, dança e culinária são algumas das expressões culturais que tornam a América do Sul um destino único e cativante.",
+      "banner": "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "info": {
+        "total_countries": "12",
+        "languages": 456,
+        "most_visited_cities": {
+          "total": 4,
+          "cities": [
+            {
+              "id": 1,
+              "city": "Rio de Janeiro",
+              "country": "Brasil",
+              "flag": "https://th.bing.com/th/id/R.8c082af9839598df652f275b4a4863bb?rik=eTdIowQvIzRWiA&pid=ImgRaw&r=0",
+              "picture_url": "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+            },
+            {
+              "id": 2,
+              "city": "Buenos Aires",
+              "country": "Argentina",
+              "flag": "https://th.bing.com/th/id/R.865c9f1748bbc63a2fde53e24378c600?rik=f%2br6T83w2eYSlg&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f10%2fArgentina-Flag-Wallpaper-HD.png&ehk=AQd8QLPRgf0Yp5k9%2fuBzPjS1A19kKZNrLma99sE4Zj4%3d&risl=&pid=ImgRaw&r=0",
+              "picture_url": "https://images.unsplash.com/photo-1612294037637-ec328d0e075e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+            },
+            {
+              "id": 3,
+              "city": "Cusco",
+              "country": "Peru",
+              "flag": "https://th.bing.com/th/id/R.17b88c8a77977b432deaf488a2634264?rik=lYBWc2WPtvg%2fxA&pid=ImgRaw&r=0",
+              "picture_url": "https://th.bing.com/th/id/R.27e5941b96b0b12ee197d208ffff1379?rik=5S%2fuHFXAj5aDMQ&pid=ImgRaw&r=0"
+            },
+            {
+              "id": 4,
+              "city": "Cartagena",
+              "country": "Colômbia",
+              "flag": "https://wallpapercave.com/wp/wp4205986.jpg",
+              "picture_url": "https://th.bing.com/th/id/R.22a194dd17bb4c5c519ed02104a173eb?rik=itFMCNIyMYPxsA&pid=ImgRaw&r=0"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 4,
+      "title": "América do Norte",
+      "description": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
+      "banner": "https://images.unsplash.com/photo-1499092346589-b9b6be3e94b2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80",
+      "info": {
+        "total_countries": "3",
+        "languages": 256,
+        "most_visited_cities": {
+          "total": 4,
+          "cities": [
+            {
+              "id": 1,
+              "city": "Nova York",
+              "country": "Estados Unidos",
+              "flag": "https://th.bing.com/th/id/R.7c6aa923662c105e43f3ff7378a0ffca?rik=NBRuPIjyiiSXbg&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fPQvqxkB.jpg&ehk=3D4r3DvsIgSXIQAS9%2fwd1rTIOJpakiZZjxsthtmpGDk%3d&risl=&pid=ImgRaw&r=0",
+              "picture_url": "https://images.unsplash.com/photo-1483653364400-eedcfb9f1f88?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+            },
+            {
+              "id": 2,
+              "city": "Cidade do México",
+              "country": "México",
+              "flag": "https://th.bing.com/th/id/R.dd0bfd7d3d75364565c27e328a9b5c41?rik=xGe3urI83hq0Ng&riu=http%3a%2f%2fwww.pixnio.com%2ffree-images%2fflags-of-the-world%2fflag-of-mexico-725x363.jpg&ehk=N%2foCmd%2fmSWoYi3YcAJaGWYvAAVitVPDFc%2fJZx7uVMvg%3d&risl=&pid=ImgRaw&r=0",
+              "picture_url": "https://th.bing.com/th/id/R.2538b12115a857065e63f01502d95c7a?rik=LWIVxqRhSUHFJA&pid=ImgRaw&r=0"
+            },
+            {
+              "id": 3,
+              "city": "Toronto",
+              "country": "Canadá",
+              "flag": "https://th.bing.com/th/id/R.d89c98bb5bcef2bb2ad11ab3fdb539fb?rik=%2fmo6lS0NXt%2fdBw&riu=http%3a%2f%2fwww.clipartbest.com%2fcliparts%2fdc6%2fXxn%2fdc6XxnBc9.png&ehk=YIrmBa3uEdiz3ufr32wi3ypdMtD8tZnVyb66cmQu0Ns%3d&risl=&pid=ImgRaw&r=0",
+              "picture_url": "https://th.bing.com/th/id/R.30cb0ff68e4641ac5c08ffab91c7e2cd?rik=7o1IohQExBNZyQ&pid=ImgRaw&r=0"
+            },
+            {
+              "id": 4,
+              "city": "Cancún",
+              "country": "México",
+              "flag": "https://th.bing.com/th/id/R.dd0bfd7d3d75364565c27e328a9b5c41?rik=xGe3urI83hq0Ng&riu=http%3a%2f%2fwww.pixnio.com%2ffree-images%2fflags-of-the-world%2fflag-of-mexico-725x363.jpg&ehk=N%2foCmd%2fmSWoYi3YcAJaGWYvAAVitVPDFc%2fJZx7uVMvg%3d&risl=&pid=ImgRaw&r=0",
+              "picture_url": "https://th.bing.com/th/id/R.0484c33708e0d6be73bdf716bb8e62a9?rik=L8ubgwIDtGJFSA&riu=http%3a%2f%2fvikingsturismo.com.br%2fwp-content%2fuploads%2f2020%2f02%2fconfira-o-que-fazer-em-cancun-cenario-da-nova-novela-salve-se-quem-puder_-4.jpg&ehk=HkkYn5D%2f1ppJR5FkVN%2fRmUTbQdCfO2pL3rScLUDHYr4%3d&risl=&pid=ImgRaw&r=0"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 5,
+      "title": "África",
+      "description": "A África é um continente fascinante e diverso, com uma cultura rica e uma beleza natural inigualável. A região é lar de uma grande variedade de povos, línguas e tradições. Desde vastas savanas até florestas tropicais exuberantes, a África oferece aos viajantes uma experiência única e inesquecível.",
+      "banner": "https://images.unsplash.com/photo-1596005554384-d293674c91d7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1498&q=80",
+      "info": {
+        "total_countries": "54",
+        "languages": 2000,
+        "most_visited_cities": {
+          "total": 4,
+          "cities": [
+            {
+              "id": 1,
+              "city": "Cairo",
+              "country": "Egito",
+              "flag": "https://th.bing.com/th/id/R.c6278df6270e950b76b148f146ce3a85?rik=O8KKFawvguuH2g&pid=ImgRaw&r=0&sres=1&sresct=1",
+              "picture_url": "https://bigseventravel.com/wp-content/uploads/2019/11/cairo-1024x681.jpg"
+            },
+            {
+              "id": 2,
+              "city": "Cidade do Cabo",
+              "country": "África do Sul",
+              "flag": "https://th.bing.com/th/id/R.cb03bcabaa2da7144b670407f502b0ae?rik=Hta3w5tuN6glZA&pid=ImgRaw&r=0",
+              "picture_url": "https://th.bing.com/th/id/R.0fcaa727f5d92406d7dfff34c354879e?rik=ck8QMh13ZjmfaA&pid=ImgRaw&r=0"
+            },
+            {
+              "id": 3,
+              "city": "Marraquexe",
+              "country": "Marrocos",
+              "flag": "https://th.bing.com/th/id/R.58d581ce984a43981ce7a43095b5d4be?rik=OybEcOdGj7P0Bw&riu=http%3a%2f%2fmedia.istockphoto.com%2fvectors%2fmorocco-flag-vector-id520216383%3fk%3d6%26m%3d520216383%26s%3d612x612%26w%3d0%26h%3dkZPhdGauziSErquS3SJFIGBxJo9I2gkTO82o8t0QPAs%3d&ehk=Q95N73EROst0GbmOXelOS4i4yDHwwOctLNi2m0zkAII%3d&risl=&pid=ImgRaw&r=0",
+              "picture_url": "https://th.bing.com/th/id/R.3d8cb411612fc45d986ccdb72da6368b?rik=Vi%2fBPd4pcIDNJA&pid=ImgRaw&r=0"
+            },
+            {
+              "id": 4,
+              "city": "Zanzibar",
+              "country": "Tanzânia",
+              "flag": "https://th.bing.com/th/id/R.3240fd9c195dfd85ddf97ff58fe7731f?rik=%2fR4DTqR3epPpbg&riu=http%3a%2f%2f4vector.com%2fi%2ffree-vector-flag-of-tanzania_098685_flag_of_Tanzania.png&ehk=7NjVGsV57mIpmNFXbVloDVE0NMqcRCg%2bcTKxAG4mIhM%3d&risl=&pid=ImgRaw&r=0",
+              "picture_url": "https://th.bing.com/th/id/R.58eb1f4d7ed10d449978cf6fdef4f403?rik=L2HVMFFGJJrbwQ&pid=ImgRaw&r=0"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 6,
+      "title": "Oceania",
+      "description": "A Oceania é um continente de beleza inigualável, com paisagens naturais de tirar o fôlego e uma cultura rica e diversa. A região abriga uma grande variedade de flora e fauna únicas, além de um estilo de vida descontraído e relaxado que é característico da região.",
+      "banner": "https://images.unsplash.com/photo-1504214208698-ea1916a2195a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "info": {
+        "total_countries": "14",
+        "languages": 1200,
+        "most_visited_cities": {
+          "total": 4,
+          "cities": [
+            {
+              "id": 1,
+              "city": "Sydney",
+              "country": "Austrália",
+              "flag": "https://th.bing.com/th/id/R.622b892bb6997df9ac5e5490b4876c33?rik=N3ex6lcGdzrX8A&pid=ImgRaw&r=0",
+              "picture_url": "https://croaziere.co/wp-content/uploads/2017/04/Sydney2-2.jpg"
+            },
+            {
+              "id": 2,
+              "city": "Auckland",
+              "country": "Nova Zelândia",
+              "flag": "https://th.bing.com/th/id/OIP.9lVyOyA1mJv8fqAiaw6KpQHaD6?pid=ImgDet&rs=1",
+              "picture_url": "https://th.bing.com/th/id/R.b2c3635c0aa1c7c36647f3ddd4144c1e?rik=cKYKUZCRB4GTvA&pid=ImgRaw&r=0"
+            },
+            {
+              "id": 3,
+              "city": "Nadi",
+              "country": "Fiji",
+              "flag": "https://th.bing.com/th/id/R.cc69ecb291da42e1635dc69244dfa2cb?rik=DCJdwunSLMjKag&pid=ImgRaw&r=0",
+              "picture_url": "https://th.bing.com/th/id/R.d32915b77904e305d0d6bbbf30dc8fb9?rik=Me9DhW1pjBwviA&pid=ImgRaw&r=0"
+            },
+            {
+              "id": 4,
+              "city": "Port Moresby",
+              "country": "Papua Nova Guiné",
+              "flag": "https://th.bing.com/th/id/R.dfac4b5c6c33465efc7117534970ea84?rik=0IoGP090TRC2yQ&pid=ImgRaw&r=0",
+              "picture_url": "https://th.bing.com/th/id/R.1bd31e9a0bdad28680361c75101ae384?rik=ycqVazX0Gs6Y1Q&pid=ImgRaw&r=0"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "server": "json-server -d 740 -w -p 3333 ./server.json"
   },
   "dependencies": {
     "@chakra-ui/icons": "^2.0.17",
@@ -23,5 +24,8 @@
     "react-dom": "18.2.0",
     "swiper": "^9.1.1",
     "typescript": "5.0.2"
+  },
+  "devDependencies": {
+    "json-server": "^0.17.3"
   }
 }

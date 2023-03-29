@@ -6,9 +6,10 @@ import { useRouter } from 'next/router';
 import logo from '../../public/logo.svg';
 
 export function Header() {
-  const { asPath } = useRouter();
+  const { asPath, back } = useRouter();
 
-  const hasBackButton = ['/continent'].includes(asPath);
+  const hasBackButton =
+    ['/continent'].includes(asPath) || asPath.startsWith('/continent');
 
   return (
     <Flex
@@ -28,17 +29,15 @@ export function Header() {
         alignItems='center'
         justifyContent='center'
       >
-        <Box flex={0.5}>
-          {hasBackButton && (
-            <ChevronLeftIcon fontSize='3xl' />
-          )}  
+        <Box flex={0.5} _hover={{cursor: 'pointer'}}>
+          {hasBackButton && <ChevronLeftIcon fontSize='3xl' onClick={back} />}
         </Box>
 
         <Flex flex={1} justifyContent='center'>
-          <Image src={logo} alt='WorldTrip logo' />
+          <Image src={logo} alt='WorldTrip logo' priority />
         </Flex>
 
-        <Box flex={0.5}/>
+        <Box flex={0.5} />
       </Flex>
     </Flex>
   );

@@ -19,7 +19,18 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/controller';
 
-export function Slide() {
+interface Slide {
+  id: number;
+  title: string;
+  description: string;
+  picture_url: string;
+}
+interface SlideProps {
+  slides: Slide[];
+}
+
+
+export function Slide({slides}: SlideProps) {
   return (
     <Swiper
       cssMode={true}
@@ -32,41 +43,15 @@ export function Slide() {
       className='mySwiper'
       style={{ height: 500, borderRadius: 3 }}
     >
-      <SwiperSlide>
-        <Slider
-          title='Europa'
-          description='O continente mais antigo'
-          image={europa}
-        />
-      </SwiperSlide>
-      <SwiperSlide>
-        <Slider
-          title='Asia'
-          description='O continente mais antigo'
-          image={asia}
-        />
-      </SwiperSlide>
-      <SwiperSlide>
-        <Slider
-          title='Améria'
-          description='O continente mais antigo'
-          image={america}
-        />
-      </SwiperSlide>
-      <SwiperSlide>
-        <Slider
-          title='África'
-          description='O continente mais antigo'
-          image={africa}
-        />
-      </SwiperSlide>
-      <SwiperSlide>
-        <Slider
-          title='Oceania'
-          description='O continente mais antigo'
-          image={oceania}
-        />
-      </SwiperSlide>
+      {slides.map(slide => (
+        <SwiperSlide key={slide.id}>
+          <Slider
+            title={slide.title}
+            description={slide.description}
+            image={slide.picture_url}
+          />
+        </SwiperSlide>
+      ))}
     </Swiper>
   );
 }
